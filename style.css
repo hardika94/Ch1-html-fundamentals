@@ -76,9 +76,36 @@ aside h2{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
 .main-header{
-    background-color: #1ca5b8;
+    background-color: #d7dbdb;
 }
 .events{
     background-color: #e0dada;
     border: 5px solid #1098cd;
+}
+/* pseudo class */
+li:first-child{
+    font-weight: bold;
+}
+li:nth-child(2){
+    color: #f00;
+}
+li:last-child{
+    font-style: italic;
+}
+/* pseudo class */
+/* styling links */
+a:link{
+    text-decoration: none;
+}
+a:visited{
+    color: #0c6f96;
+}
+a:hover{
+    font-weight: bold;
+    color: #fc751b;
+    text-decoration:underline #fc751b;
+}
+a:active{
+    background-color: rgb(45, 127, 199);
+    font-style: italic;
 }
