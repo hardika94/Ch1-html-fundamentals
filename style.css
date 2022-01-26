@@ -46,6 +46,8 @@ aside h2{
     font-size: 25px;
     font-style: italic;
     color: crimson;
+    text-align: center;
+    font-weight: bold;
 }
 /* footer p{
     font-size: 20px;
@@ -72,4 +74,11 @@ aside h2{
 .activities{
     font-size: 16px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+.main-header{
+    background-color: #1ca5b8;
+}
+.events{
+    background-color: #e0dada;
+    border: 5px solid #1098cd;
 }
