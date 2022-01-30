@@ -62,11 +62,15 @@ aside h2{
     text-decoration-color: palevioletred;
 }
 
-/* using class */
+/* using class nd conflict with id class nd tag */
 .copyright{
     font-size: 20px;
     font-style: italic;
     font-family: 'Times New Roman', Times, serif;
+    color: #f00 !important;
+}
+#copy{
+    color: blueviolet;
 }
 .list{
     list-style: none;
@@ -109,3 +113,4 @@ a:active{
     background-color: rgb(45, 127, 199);
     font-style: italic;
 }
+
