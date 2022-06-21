@@ -9,6 +9,7 @@ h1{
     font-style: initial;
     text-align: center;
 }
+
 h2{
     font-size: 30px;
     position: relative;
@@ -29,11 +30,14 @@ li{
 header nav a{
     font-size: 18px;
     color: darkviolet;
+    padding-right: 15px;
 }
 /* header h2{
     color: indigo;
 } */
-
+nav{
+    float: right;
+}
 header p{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: forestgreen;
@@ -85,6 +89,7 @@ aside h2{
     background-color: #d7dbdb;
     padding: 20px 20px;
 }
+
 h2::before{
     content: "Hello";
     position: absolute;
@@ -127,4 +132,13 @@ a:active{
     background-color: rgb(45, 127, 199);
     font-style: italic;
 }
-
+.author-img{
+    float: left;
+    padding-left: 15px;
+    margin-top: 15px;
+}
+.author{
+    float: left;
+    margin-left: 15px;
+    margin-top: 10px;
+}
