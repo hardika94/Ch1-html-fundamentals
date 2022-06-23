@@ -100,11 +100,18 @@ aside h2{
     font-size: 16px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
+.container{
+    width: 1200px;
+    margin: 0 auto;
+    border: 5px solid blue;
+    border-radius: 10px;
+}
 .main-header{
     background-color: #d7dbdb;
     background-color:darkseagreen;
-    padding: 20px 40px;
-    margin-bottom: 60px;
+    padding: 5px 30px;
+    margin-bottom: 40px;
+    display: flow-root;
 }
 
 .main-header nav a:link{
@@ -125,6 +132,8 @@ h2::before{
 .events{
     background-color: #e0dada;
     border: 5px solid #1098cd;
+     width: 250px;
+    float: right; 
 }
 /* pseudo class */
 li:first-child{
@@ -154,16 +163,33 @@ a:active{
     font-style: italic;
 }
 .author-img{
-    float: left;
+    /* float: left; */
     padding-left: 15px;
     margin-top: 15px;
 }
 .author{
-    float: left;
+    /* float: left; */
     margin-left: 15px;
     margin-top: 10px;
 }
 
 .clear{
     clear: both;
+}
+
+article{
+background-color: skyblue;
+width: 900px;
+float: left;
+}
+
+/* aside{
+    background-color: palegreen;
+    width: 300px;
+    float: right;
+} */
+
+footer{
+background-color: yellow;
+clear: both;
 }
