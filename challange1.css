@@ -1,3 +1,9 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body{
     font-family: sans-serif;
     color: #777;
@@ -35,12 +41,34 @@ nav a:link:last-child{
     margin-right: 0px;
 }
 .header-img{
-    height: 150px;
-    width: 150px;
+    /* height: 150px;
+    width: 150px; */
+    float: left;
+    margin-right: 25px;
 }
 .price{
     font-size: 16px;
     color: #000;
+    float: left;
+}
+.shipping{
+    float: right;
+}
+.product-info{
+    width: 240px;
+    float: left;
+    margin-left: 25px;
+}
+.detail-product{
+    width: 240px;
+    float: right;
+}
+.min-con{
+    background-color: rgb(83, 8, 20);
+}
+.product-discription{
+    clear: both;
+    margin-bottom: 20px;
 }
 .more-info:link , .more-info:visited{
     font-size: 18px;

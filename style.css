@@ -130,10 +130,12 @@ h2::before{
 
 }
 .events{
-    background-color: #e0dada;
+    /* background-color: #e0dada;
     border: 5px solid #1098cd;
      width: 250px;
-    float: right; 
+    float: right;  */
+    list-style: none;
+    margin-left: 0;
 }
 /* pseudo class */
 li:first-child{
@@ -183,11 +185,15 @@ width: 900px;
 float: left;
 }
 
-/* aside{
+aside{
     background-color: palegreen;
-    width: 300px;
+    border-top: 4px solid red;
+    border-bottom: 4px solid red ;
+    padding: 50px 0;
+    /* width: 300px; */
+    box-sizing: border-box;
     float: right;
-} */
+} 
 
 footer{
 background-color: yellow;
