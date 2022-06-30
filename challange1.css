@@ -12,7 +12,7 @@ body{
     position: relative;
 }
 .container{
-    margin: 0 auto;
+    margin: 100px auto;
     width: 700px;
     border: 3px #121213 solid;
     position: relative;
