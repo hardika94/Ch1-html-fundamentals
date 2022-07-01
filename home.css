@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    background: url(image/bg1.jpg);
+    background-size: cover;
+    height: 100vh;
+}
+
+.navbar{
+    height: auto;
+    width: 100%;
+    background: rgba(0,0,0,0.4);
+}
+
+.logo{
+    height: auto;
+    width: 210px;
+    padding: 20px 40px;
+}
+
+.navbar ul{
+    float: right;
+    margin-right: 20px;
+}
+
+.navbar ul li{
+    list-style: none;
+    margin: 0 8px;
+    display: inline-block;
+    line-height: 80px;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    padding: 6px 13px  ;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    transition: .4s;
+}
+
+.navbar ul li a.active,
+.navbar ul li a:hover{
+    background: orangered;
+    border-radius:2px ;
+}
+
+.container .center{
+    position: relative;
+    /* color: white; */
+    top: 50%;
+    left: 55%;
+    transform: translate(-50% , -50% );
+user-select: none;
+}
+
+.container h1{
+    color: white;
+    font-size: 65px;
+    font-weight: 900px;
+    text-align: center;
+}
+
+.container h2{
+    color: white;
+    font-size: 55px;
+    font-weight: 850px;
+    text-align: center;
+}
+
+.container .buttons{
+margin: 45px 700px;
+}
+
+.buttons button{
+    height: 50px;
+    width: 150px;
+    font-size: 18px;
+    color: white;
+    background: orangered;
+    outline: none;
+    border: 1px solid #cc0000;
+    cursor: pointer;
+    border-radius: 25px;
+}
+
+.buttons .btn{
+    margin-left: 30px;
+}
+
+.buttons button:hover{
+    background:#cc0000;
+}
