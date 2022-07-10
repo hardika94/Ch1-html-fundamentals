@@ -16,7 +16,11 @@ p{
 .container{
     width: 800px;
    margin: 0 auto;
-  
+  display: grid;
+  grid-template-columns: 1fr 300px;
+  column-gap: 75px;
+  row-gap: 10px;
+  align-items: flex-start;
 }
 
 .main-header
@@ -25,6 +29,7 @@ background-color: #f7f7f7;
 display: flex;
 align-items: center;
 justify-content: space-between;
+grid-column: 1 / -1;
 }
 .heading{
    
@@ -132,6 +137,11 @@ margin-left: 15px;
 
 }
 
+footer{
+    grid-column: 1/-1;
+    background-color: #169195;
+}
+/* 
 .row{
     display: flex;
     gap: 75px;
@@ -144,4 +154,4 @@ article{
 
 aside{
     flex:0 0 300px;
-}
+} */
