@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 960px;
+    margin: 0 auto;
+}
+
+h1{
+    font-size: 44px;
+}
+
+.header-text{
+    font-size: 22px;
+    line-height: 1.7;
+}
+
+.btn-chair{
+    font-size: 18px;
+    padding: 16px 32px;
+}
+.btn:link{
+    background-color: #087f5b;
+    display: inline-block;
+    /* font-size: 25px; */
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    border-radius: 100px;
+}
+
+img{
+    width: 40%;
+    border-radius: 10px;
+}
+
